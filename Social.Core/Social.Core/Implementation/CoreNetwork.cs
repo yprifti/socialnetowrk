@@ -24,7 +24,7 @@ namespace Social.Core.Implementation
 
             if (!_storage.Exists(subscribeTo))
             {
-                _log.Warn("User to subscribe to does not exist");
+                _log.Warn(string.Format("User {0} to subscribe to does not exist", subscribeTo.UserName));
                 return;
             }
             _storage.Subscribe(subscriber, subscribeTo);
