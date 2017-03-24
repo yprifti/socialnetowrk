@@ -26,7 +26,7 @@ namespace Social.Core.Test
         public void add_1M_users_2M_messages_1M_subscriptions() {
             //List<Task> _all = new List<Task>();
             
-            for (int i = 0; i < 1000000; i++) {
+            for (int i = 0; i < 1000; i++) {
               //  Task t =Task.Factory.StartNew(() => { });
 
 
